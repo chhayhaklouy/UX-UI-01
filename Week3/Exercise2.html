@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 2</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body { margin: 0; }
+
+    .layout {
+      display: flex;
+      gap: 3em;
+      padding-left: 3em;
+      padding-right: 3em;
+      background-color: darkblue;
+  
+    }
+
+    .left-section {
+      flex-grow: 1;
+      min-width: 0;
+      background-color: lightblue;
+    }
+
+    .right-section {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      padding: 1em;
+      width: 20em;
+      background-color: #f4c49e;
+    }
+
+    .item {
+      height: 100px;
+      background-color: #85bfdc;
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <div class="left-section"></div>
+    <div class="right-section">
+      <div class="item"></div>
+      <div class="item"></div>
+      <div class="item"></div>
+    </div>
+  </div>
+</body>
+</html>

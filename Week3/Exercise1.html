@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 1</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background-color: pink;
+      font-family: Arial, sans-serif;
+    }
+
+    .page {
+      padding-left: 10em;
+      padding-right: 10em;
+    }
+
+    
+    .sections {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      min-height: 100vh;
+      background-color: #a4ff22;
+    }
+
+    header,
+    main,
+    footer {
+      background-color: gray;
+      color: black;
+    }
+
+    header,
+    footer {
+      height: 100px;
+      flex-shrink: 0;
+    }
+
+    main {
+      flex-grow: 1; 
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="sections">
+      <header>Header</header>
+      <main>Main</main>
+      <footer>Footer</footer>
+    </div>
+  </div>
+</body>
+</html>
