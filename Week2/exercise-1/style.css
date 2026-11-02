@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 30px 16px; font-family: Arial, sans-serif; }
+.tips-container { max-width: 680px; margin: 0 auto; padding: 20px 100px; background: gray; }
+.tip-card { background: white; border-radius: 10px; padding: 20px; margin-bottom: 30px; }
+.tip-card:last-child { margin-bottom: 0; }
+.tip-card p { margin: 0 0 20px; line-height: 1.4; }
+.read-more { display: inline-block; padding: 10px 14px; color: white; border-radius: 30px; text-decoration: none; cursor: pointer; }
+.read-more:hover { filter: brightness(0.85); }
+.read-more:active { transform: translateY(1px); }
+.green { background: teal; }
+.orange { background: orange; }
+.purple { background: purple; }
+@media (max-width: 550px) { .tips-container { padding: 20px; } }
